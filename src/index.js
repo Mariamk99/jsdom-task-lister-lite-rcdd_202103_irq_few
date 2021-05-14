@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-});
-
-const newTaskDescription = document.getElementById("new-task-description");
+  const newTaskDescription = document.getElementById("new-task-description");
 const theList = document.getElementById("tasks");
 
 const createNewTask = event => { 
@@ -31,3 +29,6 @@ const deleteTask = (e) => {
 
 document.querySelector('#create-task-form').addEventListener("submit"
 , (e) => createNewTask(e))
+
+});
+
